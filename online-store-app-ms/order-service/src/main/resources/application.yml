@@ -1,4 +1,10 @@
 spring:
+  application:
+    name: ORDER-SERVICE
+  activemq:
+    broker-url: tcp://localhost:61616
+    packages:
+      trust-all: true
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
