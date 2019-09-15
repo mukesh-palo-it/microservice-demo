@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>data-management</module>
+        <module>online-store-app</module>
     </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
